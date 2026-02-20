@@ -1,6 +1,10 @@
 // ── Data Layer: markets.ts ────────────────────────────────────────────────
 // Central JSON data source for all market details.
 // Mirrors the role of data.js in the 3-tier architecture specification.
+import terminalImg from "@/assets/terminal-market.jpg";
+import centralImg from "@/assets/central-market.jpg";
+import jaroImg from "@/assets/jaro-market.jpg";
+import lapazImg from "@/assets/lapaz-market.jpg";
 
 export interface MarketStat {
   label: string;
